@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.whole-bottom-nav-content {
+    display: flex;/* stays. zorgt voor bottom nav*/
+    flex-direction: column;/* stays. zorgt voor bottom nav*/
+    height: 100dvh;/* stays. zorgt voor bottom nav*/
+}
+
+.main-bottom-nav {
+    position: sticky; /* zorgt ervoor dat bottom nav op zn plek blijft bij het voegen van content*/
+    bottom: 0; /* zorgt ervoor dat bottom nav op zn plek blijft bij het voegen van content*/
+    left: 0; /* zorgt ervoor dat bottom nav op zn plek blijft bij het voegen van content*/
+    
+    margin-top: auto; /* stays. zorgt voor bottom nav*/
+    
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.main-bottom-nav ul {
+      display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+        list-style: none;
+    
+}
+
+.main-bottom-nav a{ 
+    color: whitesmoke;
+    font-size: 40px;
+    
+}

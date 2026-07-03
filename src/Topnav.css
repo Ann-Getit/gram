@@ -1,0 +1,157 @@
+.nav-profile-page {
+    /*position: sticky;
+    height: 0;
+    left: 0;*/
+    color: whitesmoke;
+
+
+}
+
+.top-nav-profile {
+    position: relative; /**/
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.top-nav-profile ul {
+    display: flex;
+    /*flex-direction: row;
+    justify-content: center;*/
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    height: 100%;
+    margin: 0;
+
+
+}
+
+
+
+.top-nav-profile a {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.profilenames {
+   /*gekoppe;d met andere align-self's*/
+
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profilenames a {
+    font-size: 20px;
+}
+
+.home-plus-Li {
+    margin-right: auto;
+
+}
+
+.LockCloseOutline {
+
+    margin-right: 5px;
+    font-size: 20px;
+ 
+
+  
+}
+.IosArrowDown {
+    font-size: 20px;
+    margin-left: 5px;
+    align-self: start;
+
+}
+.profile-threadcont {
+    margin-left: auto;
+    padding-left: 10px;
+
+
+}
+.profile-hamburger {
+    margin-left: 16px;
+}
+.hamburgerMenuprofile,
+ .plusprofile,
+ .profilethreads {
+    font-size: 30px;
+
+
+}
+
+
+/*.      ------------------- EINDE PROFILE ----------------------*/
+
+
+
+.nav-home-page {
+
+color: whitesmoke;
+}
+
+.top-nav-home {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    
+}
+.top-nav-home ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    height: 100%;
+}
+
+
+.top-nav-home a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    /*border: 1px solid red;*/
+}
+.homenames a{
+    display: flex;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+.IosArrowDown-home {
+    align-self: center; /*hoort bij .profilenames: display en align-items center*/
+    font-size: 20px;
+}
+
+.plushome a{
+    display: flex;
+   
+ 
+    
+}
+
+.hartjehome a {
+    display: flex;
+    
+}
+
+
+/*------------------ENDEE HOME ------------------------*/
+
+
+.notes-search {
+font-size: 20px;
+}
+
+
+
+

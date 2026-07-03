@@ -1,0 +1,31 @@
+
+
+/*   ---------------   EINDE TOP NAV  -------------*/
+
+
+.profilepic-and-followers {
+      display: flex;
+    position: block;
+  
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+}
+.profile_picture {
+    border: 1px solid red;
+    height: 100%;
+   align-content: center;
+}
+
+.profile_picture button {
+    color: blue;
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+     
+
+    
+
+}
