@@ -2,17 +2,16 @@ import "./Profile.css";
 /*import { Link } from "react-router-dom"*/
 
 import { IoCamera } from "react-icons/io5";
-
-import { HiMiniChatBubbleLeft } from "react-icons/hi2";
+import { IoPersonAddSharp } from "react-icons/io5";
+import { GoPlus } from "react-icons/go";
+import { BsFillGrid3X3GapFill } from "react-icons/bs";
+import { LuSquarePlay } from "react-icons/lu";
+import { BsPersonSquare } from "react-icons/bs";
 
 const Profile = () => {
 
     return (
         <>
-       
-
-
-
 
        <div className="profilepic-and-followers">
         
@@ -46,26 +45,43 @@ const Profile = () => {
             </button>
 
         </div>
+       </div>
 
+
+       <div className="profile-instelling">
+        <div className="banners-profile">
+        <button className="banners-button"><GoPlus className="plus-profile-banner" /> Banners toevoegen</button>
+        </div>
+        <div className="profile-3buttons">
+        <button className="button2of3"> Bewerken</button>
+        <button className="button2of3"> Profiel delen</button>
+        <button className="button1of3"><IoPersonAddSharp /></button>
+        </div>
        </div>
 
 
 
 
-           {/*} <div className="profilepic-and-followers">
+
+       <div className="slidebutton-profile">
+        <button className="slidebutton-each">
+            <BsFillGrid3X3GapFill />
+        </button>
+
+        <button className="slidebutton-each2">
+            <LuSquarePlay/>
+            </button>
+
+        <button className="slidebutton-each">
+            <BsPersonSquare />
+        </button>
+       </div>
+
+       <div className="content-side-profile">
         
-        <div className="profile_picture">
+       </div>
 
-            <input type="text" placeholder="Typ iets..." className="bubble" />
-            <HiMiniChatBubbleLeft  className="bubbles-tekst-profile"/>
-            <button><IoCamera /></button>
-        </div>
-
-        <div className="followers">
-
-        </div>
-
-       </div>*/}
+     
         </>
     )
 }
