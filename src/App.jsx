@@ -4,14 +4,14 @@ import Profile from "./pages/Profile"
 import Home from "./pages/Home"
 import Search from "./pages/Search"
 import {  NavHome, NavProfile, NavSearch } from "./Topnav"
-
+import "./App.css"
 
 function App() {
  
 
   return (
     <>
-
+     <div className="app">
     <Routes>
 
       <Route path="/" element={<Navigate to="/profile" />} />
@@ -22,11 +22,9 @@ function App() {
 
       <Route path="/profile"  element={<><NavProfile /><Profile /></>} />
 
-
-
     </Routes>
     <Nav />
-
+   </div>
     </>
   )
 }

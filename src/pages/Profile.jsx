@@ -12,7 +12,7 @@ const Profile = () => {
 
     return (
         <>
-
+        <div className="profile-page">
        <div className="profilepic-and-followers">
         
         <div className="profile_picture">
@@ -77,11 +77,27 @@ const Profile = () => {
         </button>
        </div>
 
-       <div className="content-side-profile">
-        
-       </div>
 
-     
+
+
+       <div className="content-profile-side">
+       <div className="own-profile-content">
+    <p>ujyfhbtghtgh</p>
+       </div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+       <div className="own-profile-content"></div>
+
+       </div>
+       </div>
         </>
     )
 }
