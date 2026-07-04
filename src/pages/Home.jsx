@@ -19,7 +19,7 @@ const Home = () => {
             <button className="verhaalvoegen">
                 <img src="./pics/vogel-unsplash.jpg" className="vogel-pics"/>
             </button>
-             <span className="names-home">John doe</span>
+             <span className="names-home">John doex</span>
            </div>
 
             <div className="verhaalboxjes">
