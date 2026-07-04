@@ -8,21 +8,23 @@
 
 
 .whole-bottom-nav-content {
-    display: flex;/* stays. zorgt voor bottom nav*/
-    flex-direction: column;/* stays. zorgt voor bottom nav*/
-    height: 100dvh;/* stays. zorgt voor bottom nav*/
-    position: sticky;
-    bottom: 0;
-    left: 0;
+  display: flex;
+    position: relative;
+    min-height: 0;
+    height: 2900px;
 }
 
 .main-bottom-nav {
-     /* zorgt ervoor dat bottom nav op zn plek blijft bij het voegen van content*/
-     /* zorgt ervoor dat bottom nav op zn plek blijft bij het voegen van content*/
-     /* zorgt ervoor dat bottom nav op zn plek blijft bij het voegen van content*/
+       display: flex;/* stays. zorgt voor bottom nav*/
+    flex-direction: column;/* stays. zorgt voor bottom nav*/
+/* stays. zorgt voor bottom nav*/
     
     margin-top: auto; /* stays. zorgt voor bottom nav*/
-    
+
+        position: sticky;
+     bottom: 0;
+    left: 0;
+    top: 0;
     background-color: black;
     width: 100%;
     height: 100px;

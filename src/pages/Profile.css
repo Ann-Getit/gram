@@ -225,7 +225,8 @@ background-color: rgb(41, 41, 41);
 
 /* -------------- eind -------------------*/
 .profile-page {
-    
+    position: absolute;
+    width: 100%;
   background-color: #241f1f;
 }
 

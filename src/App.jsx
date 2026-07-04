@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import Search from "./pages/Search"
 import {  NavHome, NavProfile, NavSearch } from "./Topnav"
 import "./App.css"
-
+import Test from "./pages/Test";
 function App() {
  
 
@@ -22,9 +22,12 @@ function App() {
 
       <Route path="/profile"  element={<><NavProfile /><Profile /></>} />
 
+      <Route path="/test" element={<><NavHome /><Test /></>} />
+
     </Routes>
-    <Nav />
+
    </div>
+      <Nav />
     </>
   )
 }
