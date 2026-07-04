@@ -61,7 +61,7 @@
     background-color: black;
     align-items: center;
     justify-content: center;/*plus icon*/
-
+    /*justify-self: center;*/
    /* border: 1px solid red;;*/
 }
 
