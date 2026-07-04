@@ -7,6 +7,7 @@ import { GoPlus } from "react-icons/go";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
 import { LuSquarePlay } from "react-icons/lu";
 import { BsPersonSquare } from "react-icons/bs";
+import { PiArrowsClockwiseBold } from "react-icons/pi";
 
 const Profile = () => {
 
@@ -71,6 +72,10 @@ const Profile = () => {
         <button className="slidebutton-each2">
             <LuSquarePlay/>
             </button>
+
+             <button className="slidebutton-each">
+            <PiArrowsClockwiseBold />
+        </button>
 
         <button className="slidebutton-each">
             <BsPersonSquare />
