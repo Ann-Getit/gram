@@ -11,7 +11,7 @@
   display: flex;
     position: relative;
     min-height: 0;
-    height: 2900px;
+    height: 1200px;
     
 }
 
@@ -22,7 +22,7 @@
     
     margin-top: auto; /* stays. zorgt voor bottom nav*/
 /*border: 1px solid red;*/
-        position: sticky;
+        position: fixed;
      bottom: 0;
     left: 0;
     top: 0;
