@@ -60,6 +60,7 @@
     align-items: center;
     justify-content: center;/*plus icon*/
     justify-self: center;
+   /* border: 1px solid red;;*/
 }
 
 .person-icon-verhaal {
@@ -71,8 +72,8 @@
 
 .pluspuntje-home {
     position: absolute;
-    bottom: -5px;
-    transform: translateX(95%);
+    bottom: 5px;
+    transform: translateX(85%);
     background-color: grey;
     width: 40px;
     height: 40px;
@@ -80,6 +81,8 @@
     border-radius: 50%;
     border: 4px solid black;
     align-self: center;
+    text-decoration: none;
+    color: black;
 
 }
 .vogel-pics {

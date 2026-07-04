@@ -12,6 +12,7 @@
     position: relative;
     min-height: 0;
     height: 2900px;
+    
 }
 
 .main-bottom-nav {
@@ -20,14 +21,14 @@
 /* stays. zorgt voor bottom nav*/
     
     margin-top: auto; /* stays. zorgt voor bottom nav*/
-
+/*border: 1px solid red;*/
         position: sticky;
      bottom: 0;
     left: 0;
     top: 0;
     background-color: black;
     width: 100%;
-    height: 100px;
+    height: 70px;
 }
 
 .main-bottom-nav ul {
@@ -46,3 +47,4 @@
     font-size: 30px;
     
 }
+
