@@ -19,7 +19,7 @@
      display: flex;
      align-items: start;
     flex-direction: row;
-      gap: 30px;
+      gap: 0;
     background-color: black;
     overflow-x: auto;
     /*width: calc(100% - 80px);
@@ -47,13 +47,14 @@
     flex-direction: column;
    width: 200px;
     align-items: center;
+    padding-top: 10px;
 }
 
 .verhaalvoegen {
     display: flex;
     position: relative;
-    width: 135px;
-    height: 135px;
+    width: 100px;
+    height: 100px;
   
     background-color: black;
     border-radius: 50%;
@@ -85,8 +86,8 @@
 }
 .vogel-pics {
     border-radius: 50%;
-    width: 135px;
-    height: 135px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 
 }
