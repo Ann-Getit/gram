@@ -60,7 +60,7 @@
     border: none;
     background-color: black;
     align-items: center;
-   /*plus icon*/
+    justify-content: center;/*plus icon*/
     justify-self: center;
    /* border: 1px solid red;;*/
 }
@@ -68,7 +68,7 @@
 .person-icon-verhaal {
 
     font-size: 140px;
-    color: grey;
+    color: rgb(172, 169, 169);
 
 }
 
@@ -76,13 +76,13 @@
     position: absolute;
     bottom: 5px;
     transform: translateX(85%);
-    background-color: grey;
+    background-color: rgb(172, 169, 169);
     width: 40px;
     height: 40px;
     font-size: 30px;
     border-radius: 50%;
     border: 4px solid black;
-    align-self: center;
+ 
     text-decoration: none;
     color: black;
 
@@ -138,7 +138,8 @@ font-size: 13px;
     align-self: center;
     text-decoration: none;
     color: black;
-    justify-content: center;
+    padding-bottom: 5px;
+
  
 }
 }
