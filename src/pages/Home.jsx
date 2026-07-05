@@ -6,13 +6,14 @@ import { HiMiniArrowPathRoundedSquare } from "react-icons/hi2";
 import { CiLocationArrow1 } from "react-icons/ci";
 import { BiBookmark } from "react-icons/bi";
 import { HiDotsHorizontal } from "react-icons/hi";
+import { PiDotsThreeOutlineFill } from "react-icons/pi";
 import { useState } from "react"
 
 
 const Home = () => {
 
     const [showControls, setShowControls] = useState(false);
-
+   /* const [showColorDots, setShowColorDots ] = useState(active);*/
     return (
 
 
@@ -165,6 +166,7 @@ const Home = () => {
 </div>
 </div>
 
+
 <div>
      <div className="topstrokecontent">
             <div className="profilecirkel">
@@ -198,6 +200,50 @@ const Home = () => {
     <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
+
+
+
+<div>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+        <div className="slide-contents">
+            <img src="./pics/mykonos1-unsplash.jpg" className="picscontents"/>
+            <img src="./pics/mykonos2-unsplash.jpg" className="picscontents"/>
+            <img src="./pics/mykonos3-unsplash.jpg" className="picscontents"/> 
+  </div>
+  <div className="slidedots">
+       <PiDotsThreeOutlineFill className="slidedots1"/>
+  </div>
+<div className="like-comment">
+    <div className="first-icons">
+    <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
+</div>
+<div className="bookmark-icon">
+    <BiBookmark />
+    </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
+</div>
+</div>
+
+
 
 
 <div>
