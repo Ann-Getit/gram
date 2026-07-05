@@ -1,8 +1,8 @@
-import "./Play.css"
+import "./Play.css";
 
 
 const Play = () => {
-    return(
+    return (
         <>
         
         </>
