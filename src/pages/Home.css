@@ -144,9 +144,62 @@ font-size: 13px;
 
 /*---------------  END -0---------------------*/
 
+.topstrokecontent {
+    display: flex;
+
+width: 100%;
+height: 57px;
+padding: 0 15px;
+gap: 7px;
+
+}
+
+.mini-profilepic-content {
+ display: flex;
+
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.profilecirkel {
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 100%;;
 
 
-iframe {
+}
+.mini-profiilename-content {
+    width:100%;
+       display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: whitesmoke;
+}
+
+.profilenam-main {
+    height: 100%;
+align-content: center;
+
+}
+
+.tripleperiods {
+    height: 100%;
+    align-content: center;
+
+
+}
+
+/*-----------  EINDE ---------------------*/
+
+
+.picscontents {
+    width: 100%;
+    height: 600px; 
+    object-fit: cover;
+}
+video {
     width: 100%;
     height: 600px;
 }
@@ -159,7 +212,7 @@ iframe {
     width: 100%;
     font-size: 25px;
     color: whitesmoke;
-    padding: 0 10px;
+    padding: 0 15px;
     cursor: pointer;
 
     justify-content: space-between;
@@ -178,6 +231,37 @@ iframe {
   
   align-self: center;
   font-size: 28px;
+}
+/*-----------  END. ---------*/
+
+
+
+
+
+.bijschrift {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    color: whitesmoke;
+    padding: 0 15px;
+}
+
+.boldtekst {
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.extrasfromuser {
+    margin-top: 2px; 
+}
+.timeago {
+    margin-top: 5px;
+color: rgb(157, 155, 155);
+font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+
 }
 
 

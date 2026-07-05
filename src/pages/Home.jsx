@@ -5,12 +5,17 @@ import { FaRegComment } from "react-icons/fa6";
 import { HiMiniArrowPathRoundedSquare } from "react-icons/hi2";
 import { CiLocationArrow1 } from "react-icons/ci";
 import { BiBookmark } from "react-icons/bi";
+import { HiDotsHorizontal } from "react-icons/hi";
+import { useState } from "react"
+
+
 const Home = () => {
 
-
-    
+    const [showControls, setShowControls] = useState(false);
 
     return (
+
+
         <>
         <div className="home-page">
         <div className="verhaalreeks">
@@ -119,16 +124,29 @@ const Home = () => {
 
         <div className="allContents">
     <div>
-            <iframe 
-  width="315" 
-  height="560"
-  src="https://www.youtube.com/embed/jT7vYs2OkGg"
-  title="YouTube Shorts"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen>
-    
-</iframe>
+        <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+
+            <video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel1.mp4" type="video/mp4" />
+</video>
 
 <div className="like-comment">
     <div className="first-icons">
@@ -137,19 +155,33 @@ const Home = () => {
 <div className="bookmark-icon">
     <BiBookmark />
     </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
 
 <div>
-            <iframe 
-  width="315" 
-  height="560"
-  src="https://www.youtube.com/embed/3tTOujc0SMA"
-  title="YouTube Shorts"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen>
-</iframe>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+            <img src="./pics/dogs-unsplash.jpg" className="picscontents" />
+  
 <div className="like-comment">
     <div className="first-icons">
     <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
@@ -157,20 +189,40 @@ const Home = () => {
 <div className="bookmark-icon">
     <BiBookmark />
     </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
 
 
 <div>
-            <iframe 
-  width="315" 
-  height="560"
-  src="https://www.youtube.com/embed/rVK1cjmPSww"
-  title="YouTube Shorts"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen>
-</iframe>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+     <video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel2.mp4" type="video/mp4" />
+</video>     
 <div className="like-comment">
     <div className="first-icons">
     <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
@@ -178,19 +230,39 @@ const Home = () => {
 <div className="bookmark-icon">
     <BiBookmark />
     </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
 
 <div>
-            <iframe 
-  width="315" 
-  height="560"
-  src="https://www.youtube.com/embed/61b4482jExg"
-  title="YouTube Shorts"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen>
-</iframe>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+<video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel3.mp4" type="video/mp4" />
+</video>
 <div className="like-comment">
     <div className="first-icons">
     <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
@@ -198,19 +270,39 @@ const Home = () => {
 <div className="bookmark-icon">
     <BiBookmark />
     </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
 
 <div>
-            <iframe 
-  width="315" 
-  height="560"
-  src="https://www.youtube.com/embed/sOxloXyOAKA"
-  title="YouTube Shorts"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen>
-</iframe>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+   <video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel4.mp4" type="video/mp4" />
+</video>
 <div className="like-comment">
     <div className="first-icons">
     <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
@@ -218,19 +310,39 @@ const Home = () => {
 <div className="bookmark-icon">
     <BiBookmark />
     </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
 
 <div>
-            <iframe 
-  width="315" 
-  height="560"
-  src="https://www.youtube.com/embed/hbeLlO2tPNg"
-  title="YouTube Shorts"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen>
-</iframe>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+   <video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel5.mp4" type="video/mp4" />
+</video>
 <div className="like-comment">
     <div className="first-icons">
     <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
@@ -239,8 +351,95 @@ const Home = () => {
     <BiBookmark />
     </div>
 </div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
 </div>
-*
+</div>
+
+
+<div>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+   <video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel6.mp4" type="video/mp4" />
+</video>
+<div className="like-comment">
+    <div className="first-icons">
+    <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
+</div>
+<div className="bookmark-icon">
+    <BiBookmark />
+    </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
+</div>
+</div>
+
+<div>
+     <div className="topstrokecontent">
+            <div className="profilecirkel">
+                <img src="pics/vogel-unsplash.jpg" className="mini-profilepic-content"/>
+            </div>
+
+            <div className="mini-profiilename-content">
+              <div className="profilenam-main">
+            <p>profilename</p>
+              </div>
+              <div className="tripleperiods" >
+                <HiDotsHorizontal />
+             </div>
+           </div>
+        </div>
+   <video width="315" onClick={() => setShowControls(prev => !prev)}
+  controls={showControls}
+  autoPlay
+  muted
+  loop
+  playsInline>
+  <source src="./videos/ai-reel7.mp4" type="video/mp4" />
+</video>
+<div className="like-comment">
+    <div className="first-icons">
+    <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 /> 
+</div>
+<div className="bookmark-icon">
+    <BiBookmark />
+    </div>
+</div>
+<div className="bijschrift">
+    <p><span className="boldtekst">zoeyonly_1page</span > en <span className="boldtekst">anderen</span> vinden dit leuk</p>
+
+    <p className="extrasfromuser"><span className="boldtekst">johndoe</span > ai reels 3 #content#insta#2</p>
+
+    <p className="timeago">40 minuten geleden</p>
+</div>
+</div>
 
 
         </div>
