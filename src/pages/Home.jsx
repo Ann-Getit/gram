@@ -13,7 +13,22 @@ import { useState } from "react"
 const Home = () => {
 
     const [showControls, setShowControls] = useState(false);
-   /* const [showColorDots, setShowColorDots ] = useState(active);*/
+
+  
+
+const images = [
+  "./pics/mykonos1-unsplash.jpg",
+  "./pics/mykonos2-unsplash.jpg",
+  "./pics/mykonos3-unsplash.jpg"
+];
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleScroll = (e) => {
+  const index = Math.round(
+    e.target.scrollLeft / e.target.clientWidth
+  );
+  setActiveIndex(index);
+};
     return (
 
 
@@ -218,13 +233,25 @@ const Home = () => {
              </div>
            </div>
         </div>
-        <div className="slide-contents">
-            <img src="./pics/mykonos1-unsplash.jpg" className="picscontents"/>
-            <img src="./pics/mykonos2-unsplash.jpg" className="picscontents"/>
-            <img src="./pics/mykonos3-unsplash.jpg" className="picscontents"/> 
+        <div className="slide-contents" onScroll={handleScroll}>
+             {images.map((img, index) => (
+    <img
+      key={index}
+      src={img}
+      className="picscontents"
+    />
+  ))}
+     
   </div>
   <div className="slidedots">
-       <PiDotsThreeOutlineFill className="slidedots1"/>
+
+    {images.map((_, index) => (
+    <div
+      key={index}
+
+      className={`dot ${activeIndex === index ? "active" : ""}`}
+    />
+  ))}
   </div>
 <div className="like-comment">
     <div className="first-icons">
