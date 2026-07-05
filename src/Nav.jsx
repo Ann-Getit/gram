@@ -20,7 +20,7 @@ const Nav = () => {
                         <Link to="/home" ><IoHomeOutline /></Link>
                     </li>
                      <li>
-                        <Link to="" ><LuSquarePlay />
+                        <Link to="/Play" ><LuSquarePlay />
                         </Link>
                     </li>
                      <li>

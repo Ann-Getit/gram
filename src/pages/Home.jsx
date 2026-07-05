@@ -294,7 +294,7 @@ const images = [
   muted
   loop
   playsInline>
-  <source src="./videos/ai-reel2.mp4" type="video/mp4" />
+  <source src="./videos/ai-reel9.mp4" type="video/mp4" />
 </video>     
 <div className="like-comment">
     <div className="first-icons">
@@ -414,7 +414,7 @@ const images = [
   muted
   loop
   playsInline>
-  <source src="./videos/ai-reel5.mp4" type="video/mp4" />
+  <source src="./videos/ai-reel8.mp4" type="video/mp4" />
 </video>
 <div className="like-comment">
     <div className="first-icons">
