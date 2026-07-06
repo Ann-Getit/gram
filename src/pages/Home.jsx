@@ -160,7 +160,7 @@ const images = [
 
 
 
-  <Reel src="./videos/ai-reel1.mp4" type="video/mp4" />
+  <Reel src="./videos/ai-reel1.mp4" className="reel-reel-home" type="video/mp4" />
 
 
 <div className="like-comment">

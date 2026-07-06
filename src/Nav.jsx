@@ -20,14 +20,14 @@ const Nav = () => {
                         <Link to="/home" ><IoHomeOutline /></Link>
                     </li>
                      <li>
-                        <Link to="/Play" ><LuSquarePlay />
+                        <Link to="/play" ><LuSquarePlay />
                         </Link>
                     </li>
                      <li>
-                        <Link to="/Search" ><CiLocationArrow1 /></Link>
+                        <Link to="/chatsection" ><CiLocationArrow1 /></Link>
                     </li>
                      <li>
-                        <Link to="" ><IoMdSearch /></Link>
+                        <Link to="/search" ><IoMdSearch /></Link>
                     </li>
                      <li>
                         <Link to="/profile"><BsPersonCircle /></Link>

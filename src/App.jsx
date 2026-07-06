@@ -2,10 +2,11 @@ import { Routes, Route, Navigate} from 'react-router-dom';
 import Nav from "./Nav"
 import Profile from "./pages/Profile"
 import Home from "./pages/Home"
-import Search from "./pages/Search"
+import Chatsection from "./pages/Chatsection"
 import Play from "./pages/Play"
+import Search from "./pages/Search"
 
-import {  NavHome, NavProfile, NavSearch } from "./Topnav"
+import {  NavHome, NavPlay, NavChatsection, NavSearch, NavProfile} from "./Topnav"
 import "./App.css"
 import Test from "./pages/Test";
 function App() {
@@ -20,12 +21,16 @@ function App() {
 
       <Route path="/home"  element={<><NavHome /><Home /></>} />
 
-         <Route path="/play"  element={<><NavSearch /><Play /></>} />
 
+         <Route path="/play"  element={<><NavPlay /><Play /></>} />
 
-      <Route path="/search"  element={<><NavSearch /><Search /></>} />
+      <Route path="/chatsection"  element={<><NavChatsection /><Chatsection /></>} />
+
+         <Route path="/search"  element={<><NavSearch /><Search /></>} />
 
       <Route path="/profile"  element={<><NavProfile /><Profile /></>} />
+
+
 
       <Route path="/test" element={<><NavHome /><Test /></>} />
 

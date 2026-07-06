@@ -8,6 +8,121 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { SlNote } from "react-icons/sl";
 
+
+        export const NavHome = () => {
+
+            return (
+                <>
+                <nav className="nav-home-page">
+            <div className="top-nav-home">
+                <ul>
+                    <li className="plushome">
+                        <Link to=""><FiPlus /></Link>
+                    </li>
+                    <li className="homenames">
+                        <Link to="">Volgend<IoIosArrowDown className="IosArrowDown-home" /></Link>
+                    </li>
+                    <li className="hartjehome">
+                        <Link to=""><IoMdHeartEmpty />
+                        </Link>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+                </>
+            )
+        }
+
+                export const NavPlay = () => {
+
+            return (
+                <>
+                <nav className="nav-play-page">
+            <div className="top-nav-play">
+                <ul>
+                    <li className="plushome">
+                        <Link to=""><FiPlus /></Link>
+                    </li>
+                    <li className="playnames">
+                        <Link to="">Reels<IoIosArrowDown className="IosArrowDown-play" /></Link>
+                    </li>
+                   
+                    <li className="vriendenplay">
+                        <Link to="">Vrienden
+                         <div className="triplecirkelplay">
+                        <img src="./pics/vogel-unsplash.jpg" className="playcirkelspic"/>
+                        <img src="./pics/vogel-unsplash.jpg" className="playcirkelspic"/>
+                        <img src="./pics/vogel-unsplash.jpg" className="playcirkelspic"/>
+                        
+                        </div>
+                        </Link>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+                </>
+            )
+        }
+
+
+
+         export const NavChatsection = () => {
+
+            return (
+                <>
+                       <nav className="nav-home-page">
+            <div className="top-nav-home">
+                <ul>
+                    <li className="plushome">
+      
+                    </li>
+                    <li className="homenames">
+                        <Link to="">profilenamenX<IoIosArrowDown className="IosArrowDown-home" /></Link>
+                    </li>
+                    <li className="hartjehome">
+                        <Link to=""><SlNote />
+                        </Link>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+                </>
+            )
+        }
+
+
+
+         export const NavSearch = () => {
+
+            return (
+                <>
+                       <nav className="nav-home-page">
+            <div className="top-nav-home">
+                <ul>
+                    <li className="plushome">
+      
+                    </li>
+                    <li className="homenames">
+                        <Link to="">Searchside<IoIosArrowDown className="IosArrowDown-home" /></Link>
+                    </li>
+                    <li className="hartjehome">
+                        <Link to=""><SlNote />
+                        </Link>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+                </>
+            )
+        }
+
+
+
+
 export const NavProfile = () => {
     return (
         <>
@@ -36,55 +151,9 @@ export const NavProfile = () => {
 }
 
 
-        export const NavHome = () => {
-
-            return (
-                <>
-                <nav className="nav-home-page">
-            <div className="top-nav-home">
-                <ul>
-                    <li className="plushome">
-                        <Link to=""><FiPlus /></Link>
-                    </li>
-                    <li className="homenames">
-                        <Link to="">Volgend<IoIosArrowDown className="IosArrowDown-home" /></Link>
-                    </li>
-                    <li className="hartjehome">
-                        <Link to=""><IoMdHeartEmpty />
-                        </Link>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-                </>
-            )
-        }
-
-         export const NavSearch = () => {
-
-            return (
-                <>
-                       <nav className="nav-home-page">
-            <div className="top-nav-home">
-                <ul>
-                    <li className="plushome">
-      
-                    </li>
-                    <li className="homenames">
-                        <Link to="">profilenamenX<IoIosArrowDown className="IosArrowDown-home" /></Link>
-                    </li>
-                    <li className="hartjehome">
-                        <Link to=""><SlNote />
-                        </Link>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-                </>
-            )
-        }
 
 
-export default { NavProfile, NavHome, NavSearch };
+
+
+
+export default { NavHome, NavPlay, NavChatsection, NavSearch, NavProfile };
