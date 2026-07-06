@@ -73,7 +73,7 @@ const Profile = () => {
             <LuSquarePlay/>
             </button>
 
-             <button className="slidebutton-each">
+             <button className="slidebutton-each3">
             <HiMiniArrowPathRoundedSquare />
         </button>
 

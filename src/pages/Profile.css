@@ -201,8 +201,20 @@ background-color: rgb(41, 41, 41);
      border: none;
 }
 
+
 .slidebutton-each:hover {
     color: whitesmoke;
+}
+.slidebutton-each3 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: rgb(164, 162, 162);
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+     border: none;
 }
 
 .slidebutton-each2 {
