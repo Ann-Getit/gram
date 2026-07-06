@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-function Reel({ src }) {
+function Reel({ src, className }) {
   const videoRef = useRef(null);
   const [showControls, setShowControls] = useState(false);
 
@@ -29,6 +29,7 @@ function Reel({ src }) {
 
   return (
     <video
+     className={className}
       ref={videoRef}
       controls={showControls}
       onClick={() => setShowControls(prev => !prev)}
