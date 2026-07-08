@@ -6,8 +6,7 @@ body {
 
 .play-page {
 
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
+
   height: 100dvh;
   padding-bottom: 100px;
 
@@ -16,42 +15,138 @@ body {
 
 .reelContainer-play {
   height: calc(100dvh - 70px);
-
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   scroll-snap-align: start;
   scroll-snap-stop: always;
   margin: 0;
   padding: 0;
-
-
+  position: relative;
+  
+  
 }
 
 .reel-play {
-    border: 1px solid red;
+
     height: 100dvh;
     width: 100%;
     padding: 0;
      margin: 0;
-     object-fit: cover;
      display: block;
-  /* ook voor home.jsx*/
+     /*object-fit: cover;  misschien terug aan het einde !! */ 
 }
-/*
-@media (max-width: 499px) {
-    .play-page {
+
+
+
+.like-buttons-play {
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
-  height: 100dvh;
-
-}
-
-.reelContainer-play {
-  height: 100dvh;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
+  justify-content: end;
+  border: 1px solid red;
+  height: 100%;
+  min-width: 371px;
+  z-index: 10;
+  color: white;
+  position: absolute;
+  padding-bottom: 30px; 
 
 
 }
-}*/
+
+
+.play-button-icons {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+
+  font-size: 35px;
+  gap: 30px;
+}
+
+.playbuttonvogel {
+  padding-right: 15px;
+  border: none;
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+}
+
+.vogelbutton-play {
+  border-radius: 10px;
+  width: 35px;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+
+
+.minicontentstroke {
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+   width: 300px;
+
+}
+
+.minicirkelreeplay {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+}
+
+
+
+
+.extradivreplay{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.mininamereelplay {
+  font-size: 16px;
+  padding-left: 3px;
+  width: 100%;
+  align-self: center;
+}
+.minimusicreelplay {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  font-size: 12px;
+ border: 1px solid red;
+  color: rgb(206, 202, 202);
+
+}
+.musiciconplay {
+  font-size: 15px;
+  margin-right: 5px;
+   border: 1px solid red;
+
+}
+.vogelbutton-play1 {
+  border-radius: 50%;
+  width: 45px;
+  height: 100%;
+
+}
+
+@media (max-width: 499px) {
+  .reel-play {
+    height: 100dvh;
+    width: 100%;
+    padding: 0;
+     margin: 0;
+     display: block;
+     border: 1px solid red;
+     object-fit: cover;
+  }
+}
