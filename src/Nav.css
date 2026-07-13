@@ -16,14 +16,14 @@
 }
 
 .main-bottom-nav {
-       display: flex;/* stays. zorgt voor bottom nav*/
+    display: flex;/* stays. zorgt voor bottom nav*/
     flex-direction: column;/* stays. zorgt voor bottom nav*/
 /* stays. zorgt voor bottom nav*/
     
     margin-top: auto; /* stays. zorgt voor bottom nav*/
 /*border: 1px solid red;*/
-        position: fixed;
-     bottom: 0;
+    position: fixed;
+    bottom: 0;
     left: 0;
     top: 0;
     background-color: black;
