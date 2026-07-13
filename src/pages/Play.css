@@ -32,7 +32,7 @@ body {
     padding: 0;
      margin: 0;
      display: block;
-   /* object-fit: cover;   misschien terug aan het einde !! */ 
+    object-fit: contain;  /* misschien terug aan het einde !! */ 
      scroll-snap-align: start;
 }
 

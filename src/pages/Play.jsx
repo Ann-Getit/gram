@@ -76,7 +76,7 @@ const Play = () => {
 
 
             <div className="reelContainer-play">
-            <Reel src="./videos/ai-reel4.mp4" type="video/mp4" className="reel-play" />
+            <Reel src="./videos/ai-reel10.mp4" type="video/mp4" className="reel-play" />
             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
@@ -116,7 +116,7 @@ const Play = () => {
 
 
             <div className="reelContainer-play">
-            <Reel src="./videos/ai-reel4.mp4" type="video/mp4" className="reel-play" />
+            <Reel src="./videos/ai-reel11.mp4" type="video/mp4" className="reel-play" />
             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
