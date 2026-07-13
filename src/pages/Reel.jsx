@@ -9,18 +9,23 @@ function Reel({ src, className }) {
 
       if (!video) return;
       
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          video.play();
-        } else {
-          video.pause();
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.intersectionRatio >= 0.7) {
+        video.play();
+      } else {
+        video.pause();
+
+        // Alleen resetten als de video volledig uit beeld is
+        if (entry.intersectionRatio === 0) {
           video.currentTime = 0;
           setShowControls(false);
         }
+     }
       },
-      { threshold: 0.7 }
-    );
+      { 
+        threshold: [ 0, 0.7]
+       }
+      );
 
     observer.observe(video);
 
