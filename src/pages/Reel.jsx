@@ -38,6 +38,9 @@ function Reel({ src, className }) {
       ref={videoRef}
       controls={showControls}
       onClick={() => setShowControls(prev => !prev)}
+        onLoadedMetadata={(e) => {
+    console.log("Video:", e.target.videoWidth, "x", e.target.videoHeight);
+  }}
       muted
       loop
       playsInline

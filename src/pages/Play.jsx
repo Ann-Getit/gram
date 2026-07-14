@@ -12,6 +12,7 @@ const Play = () => {
         <>  
         <div className="play-page">
 
+
             <div className="reelContainer-play">
             <Reel src="./videos/ai-reel8.mp4" type="video/mp4" className="reel-play" />
             <div className="like-buttons-play">
@@ -172,6 +173,7 @@ const Play = () => {
             </div>
             </div>
             </div>
+
             <div className="reelContainer-play">
             <Reel src="./videos/ai-reel7.mp4" type="video/mp4" className="reel-play" />
             <div className="like-buttons-play">
