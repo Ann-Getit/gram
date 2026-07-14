@@ -18,19 +18,59 @@ const Play = () => {
             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
             </div>
-
             <div className="minicontentstroke">
                 <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
-            
+                <div className="containerinclbutton">
                 <div className="extradivreplay">
                 <p className="mininamereelplay">natalieJosephinex</p>
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
                 </div>
             </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> vacation in Bali #indo 🗺️ 🗺️</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+
+            <div className="reelContainer-play">
+            <Reel src="./videos/ai-reel11.mp4" type="video/mp4" className="reel-play" />
+           <div className="like-buttons-play">
+                <div className="play-button-icons">
+                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
+            </div>
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">natalieJosephinex</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
+                </div>
+            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> AI reels #fietsen#AInature </p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
             </div>
             </div>
             
@@ -40,17 +80,28 @@ const Play = () => {
             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
             </div>
             <div className="minicontentstroke">
                 <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
                 <div className="extradivreplay">
                 <p className="mininamereelplay">natalieJosephinex</p>
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
                 </div>
             </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> AI videos #avatarworld 🛶</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
             </div>
             </div>
 
@@ -58,60 +109,31 @@ const Play = () => {
 
             <div className="reelContainer-play">
             <Reel src="./videos/ai-reel7.mp4" type="video/mp4" className="reel-play" />
-            <div className="like-buttons-play">
+             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
             </div>
             <div className="minicontentstroke">
                 <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
                 <div className="extradivreplay">
                 <p className="mininamereelplay">natalieJosephinex</p>
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
                 </div>
             </div>
-            </div>
-            </div>
-
-
-            <div className="reelContainer-play">
-            <Reel src="./videos/ai-reel10.mp4" type="video/mp4" className="reel-play" />
-            <div className="like-buttons-play">
-                <div className="play-button-icons">
-                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
-            </div>
-            <div className="minicontentstroke">
-                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
-                <div className="extradivreplay">
-                <p className="mininamereelplay">natalieJosephinex</p>
-                <p className="minimusicreelplay">
-                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
-                </div>
-            </div>
-            </div>
-            </div>
-
-
-            <div className="reelContainer-play">
-            <Reel src="./videos/ai-reel7.mp4" type="video/mp4" className="reel-play" />
-            <div className="like-buttons-play">
-                <div className="play-button-icons">
-                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
-            </div>
-            <div className="minicontentstroke">
-                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
-                <div className="extradivreplay">
-                <p className="mininamereelplay">natalieJosephinex</p>
-                <p className="minimusicreelplay">
-                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
-                </div>
-            </div>
+             <div className="lastcontainerreel">
+                <div>
+                 <p className="contentnamereplay"> AI videos #appletree#AI!people#eating#n </p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
             </div>
             </div>
 
@@ -121,75 +143,260 @@ const Play = () => {
             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
             </div>
             <div className="minicontentstroke">
                 <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
                 <div className="extradivreplay">
                 <p className="mininamereelplay">natalieJosephinex</p>
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
                 </div>
             </div>
-            </div>
-            </div>
-
-            <div className="reelContainer-play">
-            <Reel src="./videos/ai-reel8.mp4" type="video/mp4" className="reel-play" />
-            <div className="like-buttons-play">
-                <div className="play-button-icons">
-                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
-            </div>
-            <div className="minicontentstroke">
-                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
-                <div className="extradivreplay">
-                <p className="mininamereelplay">natalieJosephinex</p>
-                <p className="minimusicreelplay">
-                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
-                </div>
-            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay">  #VacationIn#Asia 🗺️ 🗺️</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
             </div>
             </div>
 
 
             <div className="reelContainer-play">
-            <Reel src="./videos/ai-reel9.mp4" className="reel-play" type="video/mp4" />
-            <div className="like-buttons-play">
+            <Reel src="./videos/ai-reel10.mp4" type="video/mp4" className="reel-play" />
+             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
             </div>
             <div className="minicontentstroke">
                 <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
                 <div className="extradivreplay">
                 <p className="mininamereelplay">natalieJosephinex</p>
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
                 </div>
             </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> AI videos #avatarworld 🛶</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
             </div>
             </div>
+
+
+            <div className="reelContainer-play">
+            <Reel src="./videos/ai-reel11.mp4" type="video/mp4" className="reel-play" />
+            <div className="like-buttons-play">
+                <div className="play-button-icons">
+                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
+            </div>
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">natalieJosephinex</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
+                </div>
+            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay">  #VacationIn#Asia 🗺️ 🗺️</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+            {/*---------------------------------------*/}
+
 
             <div className="reelContainer-play">
             <Reel src="./videos/ai-reel7.mp4" type="video/mp4" className="reel-play" />
             <div className="like-buttons-play">
                 <div className="play-button-icons">
                 <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
-                <HiDotsHorizontal />
-                <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
             </div>
             <div className="minicontentstroke">
                 <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
                 <div className="extradivreplay">
                 <p className="mininamereelplay">natalieJosephinex</p>
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
                 </div>
             </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> AI videos #avatarworld 🛶</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+            <div className="reelContainer-play">
+            <Reel src="./videos/ai-reel11.mp4" type="video/mp4" className="reel-play" />
+             <div className="like-buttons-play">
+                <div className="play-button-icons">
+                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
+            </div>
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">natalieJosephinex</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
+                </div>
+            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay">  #VacationIn#Asia 🗺️ 🗺️</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div className="reelContainer-play">
+            <Reel src="./videos/ai-reel8.mp4" type="video/mp4" className="reel-play" />
+              <div className="like-buttons-play">
+                <div className="play-button-icons">
+                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+            </div>
+
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">natalieJosephinex</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
+                </div>
+            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> vacation in Bali #indo 🗺️ 🗺️</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+
+            <div className="reelContainer-play">
+            <Reel src="./videos/ai-reel9.mp4" className="reel-play" type="video/mp4" />
+          <div className="like-buttons-play">
+                <div className="play-button-icons">
+                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
+            </div>
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">natalieJosephinex</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
+                </div>
+            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> AI reels #fietsen#AInature </p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+
+            <div className="reelContainer-play">
+            <Reel src="./videos/ai-reel7.mp4" type="video/mp4" className="reel-play" />
+             <div className="like-buttons-play">
+                <div className="play-button-icons">
+                <IoMdHeartEmpty /> <FaRegComment /> <HiMiniArrowPathRoundedSquare /> <CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+              
+            </div>
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play1"/></button>
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">natalieJosephinex</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
+                    </div>
+                    <button className="volgplaybutton">volgen</button>
+                </div>
+            </div>
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay"> AI videos #avatarworld 🛶</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src="./pics/vogel-unsplash.jpg" className="vogelbutton-play"/></button>
+                      </div>
+                    </div>
             </div>
             </div>
         </div>
