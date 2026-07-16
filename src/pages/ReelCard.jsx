@@ -37,13 +37,12 @@ useEffect (() => {
     distance,
   });
 
-
-
-  el.style.setProperty("--scroll-distance", `-${distance}px`);
-
-
-
-   setAnimateMusic(distance > 0);
+  if ( distance > 10) {
+    el.style.setProperty("--scroll-distance", `-${distance}px`);
+  } else {
+    el.style.setProperty("--scroll-distance", "0px");
+    setAnimateMusic(false);
+  }
 }, [music]);
 
 

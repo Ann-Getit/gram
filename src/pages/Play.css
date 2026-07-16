@@ -179,7 +179,7 @@ height: calc(100dvh - 70px);
   animation: slide 5s linear infinite;
 }
 .music-text.scrollmusic {
-  animation: slide 3s linear infinite;
+  animation: slide 5s linear infinite;
 
 }
 
