@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 function Reel({ src, className }) {
+
   const videoRef = useRef(null);
   const [showControls, setShowControls] = useState(false);
 
@@ -11,7 +12,7 @@ function Reel({ src, className }) {
       
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.intersectionRatio >= 0.7) {
-        video.play();
+        video.play().catch(() => {});
       } else {
         video.pause();
 
@@ -38,9 +39,7 @@ function Reel({ src, className }) {
       ref={videoRef}
       controls={showControls}
       onClick={() => setShowControls(prev => !prev)}
-        onLoadedMetadata={(e) => {
-    console.log("Video:", e.target.videoWidth, "x", e.target.videoHeight);
-  }}
+        
       muted
       loop
       playsInline

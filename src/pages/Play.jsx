@@ -1,16 +1,119 @@
 import "./Play.css";
-import Reel from "./Reel"
-import { IoMdHeartEmpty } from "react-icons/io";
-import { FaRegComment } from "react-icons/fa6";
-import { HiMiniArrowPathRoundedSquare } from "react-icons/hi2";
-import { CiLocationArrow1 } from "react-icons/ci";
-import { HiDotsHorizontal } from "react-icons/hi";
-import { IoMusicalNotesSharp } from "react-icons/io5";
+/*import Reel from "./Reel"*/
+import ReelCard from "./ReelCard";
+
+
+const reels = [
+  {
+    id: 1,
+    src: "./videos/ai-reel8.mp4",
+    username: "natalieJosephinex",
+    music: "Kanye West - Flashing Lightshalloh",
+    avatar: "./pics/vogel-unsplash.jpg",
+    description: "Vacation in Bali #indo 🗺️🗺️",
+    /*likes: 1200,
+    comments: 84,*/
+  },
+  {
+    id: 2,
+    src: "./videos/ai-reel9.mp4",
+    username: "johnsmith",
+    music: "Drake - Passionfruit",
+    avatar: "./pics/vogel-unsplash.jpg",
+    description: "Beautiful sunset 🌅",
+    /*likes: 850,
+    comments: 32,*/
+  },
+];
 
 const Play = () => {
     return (
-        <>  
-        <div className="play-page">
+     
+    <div className="play-page">
+      {reels.map((reel) => (
+        <ReelCard
+          key={reel.id}
+          src={reel.src}
+          username={reel.username}
+          music={reel.music}
+          avatar={reel.avatar}
+          description={reel.description}
+        />
+      ))}
+    </div>
+    );
+};
+
+export default Play;
+
+
+
+
+
+    {/*<div className="reelContainer-play">
+      <Reel src={src} className="reel-play" />
+
+
+      <div className="like-buttons-play">
+        <div className="play-button-icons">
+                <IoMdHeartEmpty /><FaRegComment /> <HiMiniArrowPathRoundedSquare /><CiLocationArrow1 />
+                <HiDotsHorizontal className="driepuntenplay"/>
+            </div>
+
+            <div className="minicontentstroke">
+                <button className="minicirkelreeplay"><img src={avatar} className="vogelbutton-play1" />
+                </button>
+
+                <div className="containerinclbutton">
+                <div className="extradivreplay">
+                <p className="mininamereelplay">{username}</p>
+                <p className="minimusicreelplay">
+                    <IoMusicalNotesSharp className="musiciconplay" /> {music}</p>
+                    </div>
+                    <button className="volgplaybutton">Volgen</button>
+                </div>
+            </div>
+            
+             <div className="lastcontainerreel">
+                <div>
+                    <p className="contentnamereplay">{description}</p>
+                    </div>
+                    <div className="">
+                      <button className="playbuttonvogel"><img src={avatar} className="vogelbutton-play"/>
+                      </button>
+                      </div>
+                    </div>
+      </div>
+
+      <div className="minicontentstroke">
+        <img src={avatar}/> {/*"./pics/vogel-unsplash.jpg"*/} {/*"./pics/vogel-unsplash.jpg" 
+        <p>{username}</p> natalieJosephinex
+        <p>{music}</p> {/*Kanye West - Flashing Lights
+        <p>{description}</p>  vacation in Bali #indo 🗺️ 🗺️
+        <p>{likes}</p>
+        <p>{comments}</p> "./videos/ai-reel8.mp4" 
+      </div>
+    </div>
+  );
+}*/}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/*<div className="play-page">
 
 
             <div className="reelContainer-play">
@@ -29,7 +132,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -60,7 +163,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -91,7 +194,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -123,7 +226,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -154,7 +257,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -185,7 +288,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -216,7 +319,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -230,7 +333,7 @@ const Play = () => {
             </div>
             </div>
 
-            {/*---------------------------------------*/}
+   
 
 
             <div className="reelContainer-play">
@@ -249,7 +352,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -285,7 +388,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -324,7 +427,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -355,7 +458,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -386,7 +489,7 @@ const Play = () => {
                 <p className="minimusicreelplay">
                     <IoMusicalNotesSharp className="musiciconplay"/> Kanye West - Flashing Lights</p>
                     </div>
-                    <button className="volgplaybutton">volgen</button>
+                    <button className="volgplaybutton">Volgen</button>
                 </div>
             </div>
              <div className="lastcontainerreel">
@@ -399,8 +502,5 @@ const Play = () => {
                     </div>
             </div>
             </div>
-        </div>
-        </>
-    )
-}
-export default Play;
+        </div>*/}
+    
