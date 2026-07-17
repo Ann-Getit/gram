@@ -112,4 +112,7 @@ font-size: 30px;
     .inputesearch::placeholder {
          width:225px;
     }
+    .buttonarrowchat {
+        bottom: 4px;
+    }
 }
