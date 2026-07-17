@@ -7,8 +7,9 @@ const Search = () => {
     return (
         <>
 
-
-
+    <div className="searchcontainer">
+    <input type="text"  placeholder="Zoeken" /> 
+    </div>
         </>
     )
 }
