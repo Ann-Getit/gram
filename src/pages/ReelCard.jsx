@@ -20,15 +20,19 @@ function ReelCard({
 }) {
 
 const textRef = useRef(null);
+
 const [animateMusic, setAnimateMusic] = useState(false);
 
+
 useEffect (() => {
+    const textWidth = textRef.current.scrollWidth;
+const containerWidth = textRef.current.parentElement.clientWidth;
 
   const el = textRef.current;
-
+  
   if (!el) return;
 
-  const distance = el.scrollWidth - el.clientWidth;
+  const distance = textWidth - containerWidth; ;
 
 
     console.log({
@@ -37,12 +41,14 @@ useEffect (() => {
     distance,
   });
 
-  if ( distance > 10) {
-    el.style.setProperty("--scroll-distance", `-${distance}px`);
-  } else {
-    el.style.setProperty("--scroll-distance", "0px");
+
+  if ( distance > 0) {
+  setAnimateMusic(true);
+  } else  {
     setAnimateMusic(false);
-  }
+ }
+
+  
 }, [music]);
 
 
@@ -74,20 +80,31 @@ useEffect (() => {
 
           <div className="containerinclbutton">
             <div className="extradivreplay">
-              <p className="mininamereelplay">
+            <p className="mininamereelplay">
                 {username}
-              </p>
+             </p>
 
-              <div className="trackplay">
+            <div className="trackplay">
                 <IoMusicalNotesSharp className="musiciconplay" />
 
-              <div className="music-wrapper" ref={textRef}>
-                <span
-    className={`music-text ${animateMusic ? "scrollmusic" : ""}`} 
-    >
-                {music}
+            <div className="music-wrapper">
+                <span ref={textRef} className="measure-text">{music}
+
                 </span>
-              </div>
+      
+            <div
+                className={`track ${animateMusic ? "scrollmusic" : ""}`}>
+         {animateMusic ? (
+         <>
+         <span>{music} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         <span>{music} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </>
+          ) : (
+            <span>{music}</span>
+          )}
+         </div>
+          </div>
+              
               </div>
             </div>
 

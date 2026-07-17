@@ -8,7 +8,7 @@ const reels = [
     id: 1,
     src: "./videos/ai-reel8.mp4",
     username: "natalieJosephinex",
-    music: "Kanye West - Flashing Lightshalloh",
+    music: "Kanye West - Flashing Lights",
     avatar: "./pics/vogel-unsplash.jpg",
     description: "Vacation in Bali #indo 🗺️🗺️",
     /*likes: 1200,
@@ -21,6 +21,26 @@ const reels = [
     music: "Drake - Passionfruit",
     avatar: "./pics/vogel-unsplash.jpg",
     description: "Beautiful sunset 🌅",
+    /*likes: 850,
+    comments: 32,*/
+  },
+   {
+    id: 3,
+    src: "./videos/ai-reel11.mp4",
+    username: "apocalypto.x",
+    music: "olivia Dean - A Couple Minutes",
+    avatar: "./pics/vogel-unsplash.jpg",
+    description: "Beautiful chinese sunset 🌅 #vacation#asia",
+    /*likes: 850,
+    comments: 32,*/
+  },
+   {
+    id: 4,
+    src: "./videos/ai-reel1.mp4",
+    username: ".john-Doex",
+    music: "olivia Dean - A Couple Minutes",
+    avatar: "./pics/vogel-unsplash.jpg",
+    description: "Springset #colorfull#flowers",
     /*likes: 850,
     comments: 32,*/
   },

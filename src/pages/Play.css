@@ -2,14 +2,16 @@ body,
 html {
   height: 100%;
   margin: 0;
+   overflow-y: auto;
+  scroll-snap-type: y mandatory; /*dit stond eerst in .play-page*/
 }
 
 
 .play-page {
   min-height: 100dvh;
   height: calc(100dvh - 70px);
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
+ 
+  
 }
 
 
@@ -124,17 +126,15 @@ height: calc(100dvh - 70px);
 
 .mininamereelplay {
   font-size: 16px;
+  font-weight: 900;
   padding-left: 3px;
   width: 100%;
   align-self: center;
-
-
 }
 
 .trackplay {
   display: flex;
   width: max-content;
-  animation: scroll 5s linear infinite;
   text-align: end;
 
 }
@@ -142,19 +142,31 @@ height: calc(100dvh - 70px);
 
 
 .music-wrapper {
-  display: flex;
   padding: 0;
   margin: 0;
  
   width: 130px;
   font-size: 12px;
-  color: rgb(206, 202, 202);
-  padding-left: 5px;
+  color: whitesmoke;
+  padding-left: 3px;
 
   white-space: nowrap;
-
-
   overflow: hidden;
+}
+.measure-text {
+  position: absolute;
+  visibility: hidden;
+  white-space: nowrap;
+}
+.track {
+  display: flex;
+  width: max-content;
+  animation: none;
+ 
+}
+
+.track span {
+  white-space: nowrap;
 }
 
   @keyframes slide {
@@ -164,22 +176,19 @@ height: calc(100dvh - 70px);
   }
 
   to {
-    transform: translateX(var(--scroll-distance));
+    transform: translateX(-50%);
   }
 }
+
+
 
 .musiciconplay {
   margin-right: 3px;
 }
-.music-text {
-  display: flex;
-  width: max-content;
-  white-space: nowrap;
-  font-size: 13px;
-  animation: slide 5s linear infinite;
-}
-.music-text.scrollmusic {
-  animation: slide 5s linear infinite;
+
+
+.scrollmusic {
+  animation: slide 10s linear infinite;
 
 }
 
@@ -188,9 +197,9 @@ height: calc(100dvh - 70px);
   border-radius: 50%;
   width: 45px;
   height: 100%;
-
-
 }
+
+
 .containerinclbutton {
 display: flex;
 flex-direction: row;
