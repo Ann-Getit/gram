@@ -13,7 +13,7 @@ import { useState } from "react"
 
 const Home = () => {
 
-    const [showControls, setShowControls] = useState(false);
+   /* const [showControl, setShowControl] = useState(false);*/
 
   
 
@@ -179,7 +179,7 @@ const images = [
     <p className="timeago">40 minuten geleden</p>
 </div>
 </div>
-
+{/* ------ als nog niet goed is check picscontents geef van dogs fotos andere class-------*/}
 
 <div>
      <div className="topstrokecontent">
@@ -196,7 +196,7 @@ const images = [
              </div>
            </div>
         </div>
-            <img src="./pics/dogs-unsplash.jpg" className="picscontents" />
+            <img src="./pics/dogs-unsplash.jpg" className="dogscontents" />
   
 <div className="like-comment">
     <div className="first-icons">

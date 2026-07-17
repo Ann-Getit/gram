@@ -205,7 +205,11 @@ align-content: center;
     /*overflow-x: scroll;*/
 }
 
-
+.dogscontents {
+    width: 100%;
+    height: 600px; 
+    object-fit: cover;
+}
 .picscontents {
     width: 100%;
     height: 600px; 

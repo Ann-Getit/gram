@@ -32,7 +32,7 @@ const containerWidth = textRef.current.parentElement.clientWidth;
   
   if (!el) return;
 
-  const distance = textWidth - containerWidth; ;
+  const distance = textWidth - containerWidth;
 
 
     console.log({
