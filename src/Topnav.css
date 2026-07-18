@@ -1,11 +1,8 @@
 .nav-profile-page {
-    /*position: sticky;
+   /* position: sticky;
     height: 0;
     left: 0;*/
     color: whitesmoke;
-    
-
-
 } 
 
 .top-nav-profile {
@@ -84,7 +81,6 @@
  .plusprofile,
  .profilethreads {
     font-size: 30px;
-
 
 }
 
