@@ -11,14 +11,50 @@ const ChatsectionData = () => {
         },
         {
             id: 2,
+            username: "john doeXjohndoeX",
+            avatar: "pics/vogel-unsplash.jpg",
+            message: "Hallo, world ",
+        },
+            {
+            id: 3,
             username: "john doeX",
             avatar: "pics/vogel-unsplash.jpg",
             message: "hallo, how are you ",
         },
+        {
+            id: 4,
+            username: "john doeXjohndoeX",
+            avatar: "pics/vogel-unsplash.jpg",
+            message: "Hallo, world ",
+        },
+            {
+            id: 5,
+            username: "john doeX",
+            avatar: "pics/vogel-unsplash.jpg",
+            message: "hallo, how are you ",
+        },
+        {
+            id: 6,
+            username: "john doeXjohndoeX",
+            avatar: "pics/vogel-unsplash.jpg",
+            message: "Hallo, world ",
+        },
+            {
+            id: 7,
+            username: "john doeX",
+            avatar: "pics/vogel-unsplash.jpg",
+            message: "hallo, how are you ",
+        },
+        {
+            id: 8,
+            username: "john doeXjohndoeX",
+            avatar: "pics/vogel-unsplash.jpg",
+            message: "Hallo, world ",
+        },
         ]
     return(
         <>
-         <div className="lists-chat">
+ 
         {chat1lists.map((chat1list) => (
         <Chatsectioncard
           key={chat1list.id}
@@ -27,7 +63,7 @@ const ChatsectionData = () => {
           message={chat1list.message} 
         />
       ))}
-      </div>
+  
         </>
     );
 };

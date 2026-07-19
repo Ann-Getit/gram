@@ -14,14 +14,15 @@ function Chatsectioncard ({
         <div className="lists-chat">
      <div className="profilecirkel">
                 <img src={avatar} className="mini-profilepic-content"/>
+              </div>    
+                <div className="chatandnames">
+        <p className="namedprofile">{username}</p>
+
+        <p className="reactieprofile">{message}</p>
+    </div>
          </div>
 
-     <div className="chatandnames">
-        <div className="namedprofile">{username}</div>
-
-        <div className="reactieprofile">{message}</div>
-    </div>
-    </div>
+   
         </>
     );
 };
