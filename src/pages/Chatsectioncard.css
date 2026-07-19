@@ -1,0 +1,47 @@
+
+.lists-chat {
+display: flex;
+
+ gap: 4px;
+margin-bottom: 15px;
+width: 100%;
+color: whitesmoke;
+height: 60px;
+padding-left: 15px;
+
+}
+
+
+.profilecirkel {
+   
+    align-items: center;
+    width: 58px;
+
+}
+
+.mini-profilepic-content {
+  height: 55px;
+  width: 55px;
+  margin-right: 8px;
+  
+}
+
+.chatandnames {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 3px;
+    width: 70%;
+    
+}
+.namedprofile {
+font-size: 15px;
+
+}
+
+
+.reactieprofile {
+font-size: 15px;
+
+}

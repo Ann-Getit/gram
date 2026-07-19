@@ -1,6 +1,10 @@
 import "./Chatsection.css";
+import ChatsectionData from "../data/ChatsectionData";
+
+
 import { useState } from "react"
 import { Link } from "react-router-dom"
+
 import { RiSearchAiLine } from "react-icons/ri";
 import { CiLocationArrow1 } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
@@ -8,6 +12,8 @@ import { IoPersonCircleSharp } from "react-icons/io5";
 import { GoBellSlash } from "react-icons/go";
 
 const Chatsection = () => {
+
+   
 
 const [showButton, setShowButton] = useState(false);
 
@@ -48,7 +54,7 @@ const [showArrowChat, setShowArrowChat] = useState(false);
     </div>
 
 
-    <div className="chatlist">
+    <div className="containernotitie-chat">
         <div className="verhaalboxjeschat">
             <button className="cloudtext-chat" >
             <span>Type iets..</span> {/*meerdere tekst toevoegen*/}
@@ -70,10 +76,17 @@ const [showArrowChat, setShowArrowChat] = useState(false);
         </div>
     </div>
 
-    <div className="lists-chat">
-        
-    </div>
+
+     <ChatsectionData />
+
+
+
         </>
-    )
-}
+    );
+};
 export default Chatsection;
+
+
+/*. import chat1lists from "./data/chat1lists";    data folder */
+
+/*. */

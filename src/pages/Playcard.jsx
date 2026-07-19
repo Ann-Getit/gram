@@ -1,4 +1,6 @@
+import "./Play.css";
 import Reel from "./Reel";
+
 import { useEffect, useRef, useState } from "react"
 
 import {IoMdHeartEmpty} from "react-icons/io";
@@ -8,53 +10,52 @@ import {CiLocationArrow1} from "react-icons/ci";
 import {HiDotsHorizontal} from "react-icons/hi";
 import {IoMusicalNotesSharp} from "react-icons/io5";
 
-function ReelCard({
 
+function Playcard ({
 
+      src,
+      username,
+      music,
+      avatar,
+      description,
+    }) {
     
-  src,
-  username,
-  music,
-  avatar,
-  description,
-}) {
+    const textRef = useRef(null);
+    
+    const [animateMusic, setAnimateMusic] = useState(false);
+    
+    
+    useEffect (() => {
+        const textWidth = textRef.current.scrollWidth;
+    const containerWidth = textRef.current.parentElement.clientWidth;
+    
+      const el = textRef.current;
+      
+      if (!el) return;
+    
+      const distance = textWidth - containerWidth;
+    
+    
+        console.log({
+        scrollWidth: el.scrollWidth,
+        clientWidth: el.clientWidth,
+        distance,
+      });
+    
+    
+      if ( distance > 0) {
+      setAnimateMusic(true);
+      } else  {
+        setAnimateMusic(false);
+     }
+    
+      
+    }, [music]);
+    
+    
+    return (
 
-const textRef = useRef(null);
-
-const [animateMusic, setAnimateMusic] = useState(false);
-
-
-useEffect (() => {
-    const textWidth = textRef.current.scrollWidth;
-const containerWidth = textRef.current.parentElement.clientWidth;
-
-  const el = textRef.current;
-  
-  if (!el) return;
-
-  const distance = textWidth - containerWidth;
-
-
-    console.log({
-    scrollWidth: el.scrollWidth,
-    clientWidth: el.clientWidth,
-    distance,
-  });
-
-
-  if ( distance > 0) {
-  setAnimateMusic(true);
-  } else  {
-    setAnimateMusic(false);
- }
-
-  
-}, [music]);
-
-
-
-      return (
-    <div className="reelContainer-play">
+         <div className="reelContainer-play">
       <Reel
         src={src}
         className="reel-play"
@@ -131,7 +132,8 @@ const containerWidth = textRef.current.parentElement.clientWidth;
         </div>
       </div>
     </div>
-  );
-}
 
-export default ReelCard;
+    );
+};
+
+export default Playcard;
