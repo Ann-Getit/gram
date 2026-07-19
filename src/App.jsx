@@ -26,7 +26,7 @@ function App() {
 
       <Route path="/chatsection"  element={<><NavChatsection /><Chatsection /></>} />
 
-         <Route path="/search"  element={<><NavSearch /><Search /></>} />
+         <Route path="/search"  element={<Search />} />
 
       <Route path="/profile"  element={<><NavProfile /><Profile /></>} />
 
