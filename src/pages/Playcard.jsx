@@ -58,7 +58,9 @@ function Playcard ({
          <div className="reelContainer-play">
       <Reel
         src={src}
+        
         className="reel-play"
+        preload="auto"
       />
 
       <div className="like-buttons-play">

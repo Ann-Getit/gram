@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-function Reel({ src, className }) {
+function Reel({ src, className, preload }) {
 
   const videoRef = useRef(null);
   const [showControls, setShowControls] = useState(false);
@@ -38,6 +38,7 @@ function Reel({ src, className }) {
      className={className}
       ref={videoRef}
       controls={showControls}
+      preload={preload}
       onClick={() => setShowControls(prev => !prev)}
         
       muted

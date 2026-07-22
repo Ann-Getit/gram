@@ -56,6 +56,8 @@ const handleCancel = () => {
         {SearchData.map((data) => (
         <div className="own-profile-content" key={data.id}>
             <img src={data.src}
+            loading="eager"
+            alt=""
             onClick={() => setSelectedImage(data.src)} />
         </div>
         ))}
@@ -106,90 +108,3 @@ import reelData from "../data/reelData";
 </div>
 
 */
-
-
-        {/*
-       <div className="own-profile-content">
-        <img src="./pics/sour2-unsplash.jpg" 
-        onClick={() => setSelectedImage("./pics/sour2-unsplash.jpg")} />
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour3-unsplash.jpg"
-        onClick={() => setSelectedImage("./pics/sour3-unsplash.jpg")} />
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour4-unsplash.jpg" 
-         onClick={() => setSelectedImage("./pics/sour4-unsplash.jpg")} />
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour5-unsplash.jpg"
-        onClick={() => setSelectedImage("./pics/sour5-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour6-unsplash.jpg"
-        onClick={() => setSelectedImage("./pics/sour6-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour7-unsplash.jpg"
-        onClick={() => setSelectedImage("./pics/sour7-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour8-unsplash.jpg"
-        onClick={() => setSelectedImage("./pics/sour8-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour9-unsplash.jpg"
-        onClick={() => setSelectedImage("./pics/sour9-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour10-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour10-unsplash.jpg")} />
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour11-unsplash.jpg"
-          onClick={() => setSelectedImage("./pics/sour11-unsplash.jpg")}/>
-       </div>
-        <div className="own-profile-content">
-            <img src="./pics/sour12-unsplash.jpg"
-             onClick={() => setSelectedImage("./pics/sour12-unsplash.jpg")}/>
-        </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour13-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour13-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour14-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour14-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour15-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour15-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour16-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour16-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour17-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour17-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour18-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour18-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour19-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour19-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour20-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour20-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour1-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour1-unsplash.jpg")}/>
-       </div>
-       <div className="own-profile-content">
-        <img src="./pics/sour5-unsplash.jpg"
-         onClick={() => setSelectedImage("./pics/sour5-unsplash.jpg")}/>
-       </div>*/}
