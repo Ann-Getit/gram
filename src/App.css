@@ -3,10 +3,9 @@ html, body {
   padding: 0;
   background: black;
 }
-/*
+
 .app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 70px;
+ box-sizing: border-box;
   
-}*/
+}

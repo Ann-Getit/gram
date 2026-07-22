@@ -1,6 +1,14 @@
 import "./Search.css";
+import SearchData from "../data/SearchData";
+
+
 import {HiDotsHorizontal} from "react-icons/hi";
 import { RiSearchLine } from "react-icons/ri";
+
+import {IoMdHeartEmpty} from "react-icons/io";
+import {FaRegComment} from "react-icons/fa";
+import {HiMiniArrowPathRoundedSquare} from "react-icons/hi2";
+import {CiLocationArrow1} from "react-icons/ci";
 
 import { useState, useRef } from "react";
 
@@ -34,8 +42,10 @@ const handleCancel = () => {
     />
 
     {isFocused ? (
-    <button onClick={() => handleCancel}
-    className="Annuleren">Annuleren</button>
+    <button
+    onClick={() => handleCancel()}
+    className="Annuleren">
+        Annuleren</button>
     ) : (
     <HiDotsHorizontal className="searchtripledots"/>
     )}
@@ -43,10 +53,62 @@ const handleCancel = () => {
 
      <div className="content-profile-side">
 
-        <div className="own-profile-content">
-            <img src="./pics/sour1-unsplash.jpg"
-            onClick={() => setSelectedImage("./pics/sour1-unsplash.jpg")} />
+        {SearchData.map((data) => (
+        <div className="own-profile-content" key={data.id}>
+            <img src={data.src}
+            onClick={() => setSelectedImage(data.src)} />
         </div>
+        ))}
+       {selectedImage && (
+  <div
+    className="overlay"
+    onClick={() => setSelectedImage(null)}
+  >
+  <div className="wrappersearch"
+    onClick={(e) => e.stopPropagation()}>
+
+    <img src={selectedImage}
+    className="large-image"
+    onClick={() => setSelectedImage(null)}
+    />
+    
+    <div className="search-button-icons">
+              <IoMdHeartEmpty />
+              <FaRegComment />
+              <HiMiniArrowPathRoundedSquare />
+              <CiLocationArrow1 />
+              <HiDotsHorizontal className="driepuntenplay" />
+            </div>
+            
+    </div>
+  </div>
+)}
+ 
+    </div>
+ 
+        </>
+    );
+};
+export default Search;
+
+/*
+import reelData from "../data/reelData";
+
+
+<div className="search-reels">
+{
+  reelData.map((data) => (
+    <div key={data.id} className="search-video-item">
+      <video src={data.src} />
+    </div>
+  ))
+}
+</div>
+
+*/
+
+
+        {/*
        <div className="own-profile-content">
         <img src="./pics/sour2-unsplash.jpg" 
         onClick={() => setSelectedImage("./pics/sour2-unsplash.jpg")} />
@@ -130,18 +192,4 @@ const handleCancel = () => {
        <div className="own-profile-content">
         <img src="./pics/sour5-unsplash.jpg"
          onClick={() => setSelectedImage("./pics/sour5-unsplash.jpg")}/>
-       </div>
-       {selectedImage && (
-  <div
-    className="overlay"
-    onClick={() => setSelectedImage(null)}
-  >
-    <img src={selectedImage} className="large-image" />
-  </div>
-)}
-    </div>
- 
-        </>
-    );
-};
-export default Search;
+       </div>*/}

@@ -115,6 +115,14 @@ function Playcard ({
           </div>
         </div>
 
+
+
+
+
+
+
+
+
         <div className="lastcontainerreel">
           <div className="contentnamereplayfirst">
             <p className="contentnamereplay">
